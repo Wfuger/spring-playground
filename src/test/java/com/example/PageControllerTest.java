@@ -68,7 +68,7 @@ public class PageControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().string("{amicool=true, isspringawesome=ithinkso}"));
     }
-    
+
     @Test
     public void testParamCustomObj() throws Exception {
         RequestBuilder request = MockMvcRequestBuilders.get("/path/querystring/custom?aParam=123&aDifferentParam=456");
@@ -78,3 +78,5 @@ public class PageControllerTest {
                 .andExpect(content().string("a param is 123; a different param is 456"));
     }
 }
+
+

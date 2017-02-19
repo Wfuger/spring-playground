@@ -1,0 +1,33 @@
+{
+  "title": "Blog Title",
+  "articles": [
+    {
+      "title": "Article 1",
+      "created_by": "Someone",
+      "comments": [
+        {
+          "author": "James Finkle",
+          "content": "some cool comment blah"
+        },
+        {
+          "author": "The Dude",
+          "content": "The dude abides"
+        }
+      ]
+    },
+    {
+      "title": "Article 2",
+      "created_by": "Someone Else",
+      "comments": [
+        {
+          "author": "Ron Burgundy",
+          "content": "Stay classy San Diego..."
+        },
+        {
+          "author": "The Fonze",
+          "content": "AAAAYYYYYYYY"
+        }
+      ]
+    }
+  ]
+}

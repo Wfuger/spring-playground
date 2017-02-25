@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 /**
  * Created by willfuger on 2/19/17.
  */
+
 public class Article {
 
     private String title;
